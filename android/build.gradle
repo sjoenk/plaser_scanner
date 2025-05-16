@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.laser_scanner.laser_scanner"
+    
     compileSdkVersion 31
 
     compileOptions {
